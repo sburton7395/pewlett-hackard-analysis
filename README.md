@@ -8,25 +8,25 @@ For Module 7, data from Pewlett-Hackard's employees was given to be analyzed in 
 ### Deliverable 1 - The Number of Retiring Employees by Title
 - Retirement Titles
     - This table was created to list all employees born between 1952 and 1955, which would put their age in the range of the current "silver tsunami." By joining the [employees] and [titles] tables, the [retirement_titles] table contains each affected employee's ID number, first and last name, title, the date they were hired, and the date they left the company (if the employee is still hired, this date is "9999-01-01").
-![Retirement titles table](/Resources/retirement_titles.png)
+    - ![Retirement titles table](/Resources/retirement_titles.png)
 - Unique Titles
     - Building off the previous table, the [unique_titles] table created a more concise list of soon-to-retire employees and their titles. The employees added to this table are still currently employed by the company, and are only listed once, with the title they currently hold.
-![Unique titles table](/Resources/unique_titles.png)
+    - ![Unique titles table](/Resources/unique_titles.png)
 - Retiring Titles
     - Using [unique_titles], the [retiring_titles] table shows the number of employees per title who are likely to retire soon.
-![name](path)
+    - ![Retiring titles table](/Resources/retiring_titles.png)
 - From these tables, it is evident that a large portion of employees are likely to retire in the upcoming "silver tsumani," with the vast majority of them (50,842 of a total 71,458 employees) being either a "Senior Engineer" or "Senior Staff." With a total of 300,024 employees, these staff members make up approximately 24% of the entire Pewlett-Hackard workforce. 
 - After breaking the employees into groups based on their titles, the effects the "silver tsunami" will have become increasingly apparent. Below are two charts, one with the number of employees who are about to retire in each title, and another with the total number of employees for each title. Using these, we can calculate the percent of each department that are likely to retire, shown in the third figure.
-![Number of employees to retire per title](/Resources/retiring_tiltes.png) ![Total number of employees per title](/Resources/all_titles_count.png)
-![Percent of employees retiring per title](/Resources/titles_percent_retiring.png)
+- ![Number of employees to retire per title](/Resources/retiring_titles.png) ![Total number of employees per title](/Resources/all_titles_count.png)
+- ![Percent of employees retiring per title](/Resources/titles_percent_retiring.png)
 - As becomes evident from these figures, the role of "Senior Engineer" will likely suffer the loss of more than 85% of its employees, and Pewlett-Hackard will have to train and/or hire many people to fill these positions.
 
 ### Deliverable 2 - The Employees Eligible for the Mentorship Program
 - Mentorship Eligibility
     - The [employees], [dept_emp], and [titles] tables were joined to show employees born in the year of 1965 who are still working with the company and the titles they currently show.
-![Retirement titles table](/Resources/retirement_titles.png)
+    - ![Retirement titles table](/Resources/retirement_titles.png)
 - In the resulting table, 1,549 staff members fit the eligibility requirements for becoming a mentor to younger employees. After breaking them down into groups of their titles, it becomes clear that there are not enough mentors to help fill the spots left by retiring employees.
-![Number of mentors per title](/Resources/mentorship_eligibility_count.png) ![Percent of mentors versus retiring employees](/Resources/titles_percent_mentors.png)
+- ![Number of mentors per title](/Resources/mentorship_eligibility_count.png) ![Percent of mentors versus retiring employees](/Resources/titles_percent_mentors.png)
 - Again, "Senior Engineers" will face difficulties in training enough employees to fill the empty positions with 25,916 employees leaving and only 241 mentors to train new members.
 
 ## Summary
